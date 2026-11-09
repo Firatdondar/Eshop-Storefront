@@ -1,4 +1,4 @@
-# 🛒 E-Shop Web Interface
+# 🛒 E-Shop Storefront
 
 A responsive e-commerce landing page and product showcase built with semantic **HTML5**, **CSS3**, and **Vanilla JavaScript**.
 
@@ -12,7 +12,7 @@ A responsive e-commerce landing page and product showcase built with semantic **
 ## 🗂️ Project Structure
 
 ```
-Web_Project/
+eshop-storefront/
 ├── index.html
 ├── assets/
 │   ├── css/
@@ -27,7 +27,7 @@ Web_Project/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Firatdondar/Web_Project.git
-   cd Web_Project
+   git clone https://github.com/Firatdondar/eshop-storefront.git
+   cd eshop-storefront
    ```
 2. Open `index.html` directly in your browser or serve with VS Code **Live Server**.
