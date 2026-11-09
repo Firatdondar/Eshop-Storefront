@@ -1,33 +1,55 @@
-# 🛒 E-Shop Storefront
+# 🛍️ E-Shop Storefront UI
 
-A responsive e-commerce landing page and product showcase built with semantic **HTML5**, **CSS3**, and **Vanilla JavaScript**.
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?logo=javascript&logoColor=black)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
-## ✨ Features
+A modern, responsive e-commerce storefront and product showcase built with semantic **HTML5**, **CSS3 Flexbox/Grid**, and **Vanilla JavaScript**.
 
-- **Responsive Navigation Bar:** Includes brand logo, quick section links, and live shopping cart counter.
-- **Hero Section:** Call-to-action banner for featured store promotions.
-- **Product Grid:** Responsive card layout showcasing featured items with interactive **Add to Cart** functionality.
-- **Zero Dependencies:** Pure HTML, CSS, and JS—runs directly in any modern browser.
+---
+
+## ✨ Key Features
+
+- **Responsive Navigation Header:** Sticky navigation bar with brand identity, section anchors, and real-time shopping cart badge counter.
+- **Promotional Hero Banner:** High-contrast call-to-action hero section designed for seasonal campaigns and featured collections.
+- **Interactive Product Catalog:** Responsive CSS Grid product cards with hover animations and interactive **Add to Cart** state updates.
+- **Zero Build Dependencies:** Lightweight, dependency-free frontend architecture that runs natively in any modern browser.
+
+---
 
 ## 🗂️ Project Structure
 
-```
-eshop-storefront/
-├── index.html
+```text
+Eshop-Storefront/
 ├── assets/
 │   ├── css/
-│   │   └── style.css
+│   │   └── style.css        # Responsive layout, typography & card animations
 │   └── js/
-│       └── script.js
-├── .gitignore
-└── README.md
+│       └── script.js        # Interactive cart state & DOM event handlers
+├── index.html               # Main semantic HTML5 storefront page
+├── LICENSE                  # MIT License
+└── README.md                # Project documentation
 ```
 
-## 🚀 Usage
+---
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Firatdondar/eshop-storefront.git
-   cd eshop-storefront
-   ```
-2. Open `index.html` directly in your browser or serve with VS Code **Live Server**.
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Firatdondar/Eshop-Storefront.git
+cd Eshop-Storefront
+```
+
+### 2. Launch Locally
+Open `index.html` directly in your browser, or run a local static server:
+```bash
+python -m http.server 8000
+```
+
+---
+
+## 📄 License
+
+Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for details.
